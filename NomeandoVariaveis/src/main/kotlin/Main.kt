@@ -7,7 +7,10 @@ fun main(args: Array<String>) {
     2 - Crie variáveis que armazenem o nome do usuário, idade, preferência de emprego, nacionalidade e tipo sanguíneo
     3 - Pense como você pode nomear essas variáveis para ficarem fáceis de serem identificadas
     4 - Use a idade do usuário para calcular o ano de seu nascimento, usando o ano atual como base (2021)
-    5 - No fim, printe todos os valores no console, juntamente com o ano em que o usuário nasceu */
+    5 - No fim, printe todos os valores no console, juntamente com o ano em que o usuário nasceu
+
+    readLine()!! - armazena dado na variante
+    */
 
     var nome = ""
     var idade = 0

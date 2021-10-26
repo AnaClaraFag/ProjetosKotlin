@@ -1,10 +1,12 @@
 import java.util.*
+import kotlin.math.pow
 
 fun main(args: Array<String>) {
     /*Exercício 2
 
 1 - Crie um projeto no IntelliJ com o nome CirculoAreaPerimetro
-2 - Crie um código que pede para o usuário digitar o diâmetro de um círculo (que será uma variável do tipo Int) e calcule a área e o perímetro (que serão Doubles).
+2 - Crie um código que pede para o usuário digitar o diâmetro de um círculo (que será uma variável do tipo Int) e
+calcule a área e o perímetro (que serão Doubles).
 4 - Faça uma conversão de tipos (de Int para Double) quando for calcular os resultados*/
 
     var diametro = 0
@@ -20,7 +22,7 @@ fun main(args: Array<String>) {
     perimetro = diametro * pi
 
     raio = diametro.toDouble() / 2
-    area = pi * raio * raio
+    area = pi * raio.pow(2)
 
     print("O perimêtro do circulo é $perimetro e a área é $area")
 
