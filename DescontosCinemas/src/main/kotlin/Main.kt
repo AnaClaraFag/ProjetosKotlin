@@ -38,6 +38,8 @@ fun main(args: Array<String>) {
             valor = ingre - desc
             var total = valor * qtd
             println("Para $qtd ingressos o valor de cada ingresso é R$$valor, totalizando R$$total")
+        }else{
+            println("Não tem desconto")
         }
     }
 
