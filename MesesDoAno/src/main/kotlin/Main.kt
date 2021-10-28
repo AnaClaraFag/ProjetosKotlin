@@ -1,9 +1,4 @@
 fun main(args: Array<String>) {
- /*
- Exercício 4
-Criarem uma estrutura de when em que consigamos passar um número inteiro entre 1 e 12.
-O programa precisará, então, retornar o mês referente ao número digitado
-  */
 
     var num = 0
 

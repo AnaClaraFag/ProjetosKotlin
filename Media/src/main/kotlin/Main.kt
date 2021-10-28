@@ -1,7 +1,4 @@
 fun main(args: Array<String>) {
-  /*
-  3 - Crie um programa para ler 4 notas e mostrar a média delas.
-   */
 
     var nota = 0.0
     var media = 0.0

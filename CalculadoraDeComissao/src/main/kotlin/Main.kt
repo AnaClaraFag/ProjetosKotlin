@@ -1,15 +1,5 @@
 fun main(args: Array<String>) {
-    /*
-     Exercício 2
-    1 - Crie um projeto chamado Calculadora de Comissão
-    2 - O App deve calcular a comissão dos representantes de vendas com base neste gráfico usado pela loja de varejo:
 
-    Faixa de Vendas        Comissão
-    acima de R$10000        30%
-    R$5001 - R$9999         20%
-    R$1001 - R$4999         10%
-    abaixo de R$1000        N / D
- */
 
     var comis = 0.0
     var venda = 0.0

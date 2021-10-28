@@ -1,12 +1,4 @@
 fun main(args: Array<String>) {
-   /*
-   Crie um programa que leia um número do teclado até que encontre um número igual a zero.
-    No final, mostre:
-    - A soma dos números digitados.
-    - A média deles
-    - O menor número digitado
-    - O maior número digitado
-    */
 
     var num = 0
     var soma = 0.0
