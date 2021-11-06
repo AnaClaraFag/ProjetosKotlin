@@ -1,10 +1,10 @@
+package Estudantes
+class Estudante( var primeiroNome:String? = null,private var sobrenome:String? = null ){
 
-class Estudante(var primeiroNome:String? = null,var sobrenome:String? = null ){
-
-    var matricula = 0
-    var nota: Double = 0.0
-    var ano: Int = 0
-    val aprovacao: Boolean
+    private var matricula = 0
+     var nota: Double = 0.0
+    private var ano: Int = 0
+    private val aprovacao: Boolean
     get() {
         return nota >= 60.0
     }
@@ -34,6 +34,14 @@ class Estudante(var primeiroNome:String? = null,var sobrenome:String? = null ){
                 this.ano = ano
             }
 
+    fun mostraNome(){
+        println(nomeCompleto())
+        var NomeDoEstudante = readLine()!!
+    }
+    fun mostraNota(){
+        println(nota)
+        var mostraNota = readLine()!!.toInt()
+    }
 
  }
 
