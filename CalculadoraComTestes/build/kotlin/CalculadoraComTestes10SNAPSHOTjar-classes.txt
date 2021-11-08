@@ -1,0 +1,1 @@
+C:\Users\acfag\IdeaProjects\CalculadoraComTestes\build\classes\kotlin\main\Calculadora.class;C:\Users\acfag\IdeaProjects\CalculadoraComTestes\build\classes\kotlin\main\MainKt.class
