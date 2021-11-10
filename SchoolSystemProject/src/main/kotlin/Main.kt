@@ -20,6 +20,14 @@ fun main() {
 
     historia.cadastrar(estudantes)
     historia.totalEstudantes()
+    historia.melhorNota()
+
+
+    try{
+        historia.verificaEstudante(felipe)
+    }catch (e: Exception){
+        println(e.message)
+    }
 
 
 
